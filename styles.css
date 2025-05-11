@@ -1,0 +1,70 @@
+/* Dark theme styles for Amuse Cruisers */
+body {
+    background-color: #121212;
+    color: #f0f0f0;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1f1f1f;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #e63946;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #00b4d8;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #1f1f1f;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 0.9em;
+}
+
+.team-grid, .merch-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.team-member, .product-card, .event-photo {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.team-member img, .product-card img, .event-photo img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
